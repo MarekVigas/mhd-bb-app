@@ -1,0 +1,7 @@
+{
+    "letsencrypt": {
+        "key": "./certs/localhost.key",
+        "cert": "./certs/localhost.cert",
+        "ca": null
+    }
+}

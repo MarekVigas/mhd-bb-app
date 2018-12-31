@@ -1,0 +1,7 @@
+{
+    "letsencrypt": {
+        "key": "/etc/letsencrypt/live/mhdbbapi.marek-vigas.sk/privkey.pem",
+        "cert": "/etc/letsencrypt/live/mhdbbapi.marek-vigas.sk/cert.pem",
+        "ca": "/etc/letsencrypt/live/mhdbbapi.marek-vigas.sk/chain.pem"
+    }
+}
