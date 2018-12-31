@@ -1,5 +1,7 @@
 {
   "name": "MHD Banská Bystrica",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
