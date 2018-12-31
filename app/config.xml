@@ -1,124 +1,121 @@
-		<?xml version="1.0" encoding="UTF-8"?>
-	<widget xmlns = "http://www.w3.org/ns/widgets"
-		xmlns:gap = "http://phonegap.com/ns/1.0"
-		xmlns:android = "http://schemas.android.com/apk/res/android"
-		id        = "sk.vigivietor.mhdbb"
-		versionCode=""
-		version   = "2.0.0">
-		<name>MHD Banská Bystrica		</name>
-		<description>An awesome Ionic/Cordova app.		</description>
-		<author href="https://marek-vigas.sk" email="kontakt@marek-vigas.sk">Marek Vigaš		</author>
-		<feature name="http://api.phonegap.com/1.0/battery" />
-		<feature name="http://api.phonegap.com/1.0/camera" />
-		<feature name="http://api.phonegap.com/1.0/contacts" />
-		<feature name="http://api.phonegap.com/1.0/file" />
-		<feature name="http://api.phonegap.com/1.0/geolocation" />
-		<feature name="http://api.phonegap.com/1.0/media" />
-		<feature name="http://api.phonegap.com/1.0/network" />
-		<feature name="http://api.phonegap.com/1.0/notification" />
-		<plugin name="cordova-plugin-device"  spec="2.0.2" />
-		<plugin name="cordova-plugin-splashscreen"  />
-		<plugin name="cordova-plugin-statusbar"  spec="2.4.2" />
-		<plugin name="undefined" version="1.3.3" source="npm"  />
-		<plugin name="undefined" version="^2.0.0" source="npm"  />
-		<plugin name="undefined" version="^2.0.5" source="npm"  />
-		<preference name="phonegap-version" value="cli-6.3.0" />
-		<preference name="android-build-tool" value="gradle" />
-		<preference name="orientation" value="default" />
-		<preference name="fullscreen" value="true" />
-		<preference name="target-device" value="universal" />
-		<preference name="webviewbounce" value="true" />
-		<preference name="prerendered-icon" value="false" />
-		<preference name="stay-in-webview" value="true" />
-		<preference name="ios-statusbarstyle" value="default" />
-		<preference name="detect-data-types" value="true" />
-		<preference name="exit-on-suspend" value="true" />
-		<preference name="show-splash-screen-spinner" value="true" />
-		<preference name="auto-hide-splash-screen" value="true" />
-		<preference name="FadeSplashScreen " value="true" />
-		<preference name="EnableViewportScale" value="false" />
-		<preference name="MediaPlaybackRequiresUserAction" value="false" />
-		<preference name="AllowInlineMediaPlayback" value="true" />
-		<preference name="BackupWebStorage" value="local" />
-		<preference name="TopActivityIndicator" value="white" />
-		<preference name="KeyboardDisplayRequiresUserAction" value="true" />
-		<preference name="KeyboardShrinksView " value="true" />
-		<preference name="HideKeyboardFormAccessoryBar" value="true" />
-		<preference name="SuppressesIncrementalRendering" value="false" />
-		<preference name="windows-identity-name" value="" />
-		<preference name="android-minSdkVersion" value="19" />
-		<preference name="android-targetSdkVersion" value="23" />
-		<preference name="android-installLocation" value="auto" />
-		<preference name="SplashScreenDelay" value="2000" />
-		<preference name="ErrorUrl" value="null" />
-		<preference name="BackgroundColor" value="0x000000" />
-		<preference name="DisallowOverscroll" value="true" />
-		<preference name="LoadingDialog" value="," />
-		<preference name="LoadUrlTimeoutValue" value="null" />
-		<platform name="ios">
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon.png" width="57" height="57" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-72@2x.png" width="144" height="144" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-72.png" width="72" height="72" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon@2x.png" width="114" height="114" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-50.png" width="50" height="50" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-50@2x.png" width="100" height="100" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-60.png" width="60" height="60" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-60@2x.png" width="120" height="120" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-60@3x.png" width="180" height="180" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-76.png" width="76" height="76" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-76@2x.png" width="152" height="152" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-small.png" width="29" height="29" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-small@2x.png" width="58" height="58" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-small@3x.png" width="87" height="87" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-40.png" width="40" height="40" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-40@2x.png" width="80" height="80" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-736h.png" width="1242" height="2208" /> 
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-Landscape-736h.png" width="2208" height="1242" /> 
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-667h.png" width="750" height="1334" /> 
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-568h@2x~iphone.png" width="640" height="1136" /> 
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default@2x~iphone.png" width="640" height="960" /> 
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default~iphone.png" width="320" height="480" /> 
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-Portrait~ipad.png" width="768" height="1024" /> 
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-Landscape~ipad.png" width="1024" height="768" /> 
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-Portrait@2x~ipad.png" width="1536" height="2048" /> 
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-Landscape@2x~ipad.png" width="2048" height="1536" /> 
-		</platform>
-		<platform name="android">
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-ldpi-icon.png" qualifier="ldpi" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-mdpi-icon.png" qualifier="mdpi" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-hdpi-icon.png" qualifier="hdpi" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-xhdpi-icon.png" qualifier="xhdpi" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-xxhdpi-icon.png" qualifier="xxhdpi" />
-		<icon src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-xxxhdpi-icon.png" qualifier="xxxhdpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-ldpi-screen.png" qualifier="port-ldpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-ldpi-screen.png" qualifier="land-ldpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-mdpi-screen.png" qualifier="port-mdpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-mdpi-screen.png" qualifier="land-mdpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-hdpi-screen.png" qualifier="port-hdpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-hdpi-screen.png" qualifier="land-hdpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-xhdpi-screen.png" qualifier="port-xhdpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-xhdpi-screen.png" qualifier="land-xhdpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-xxhdpi-screen.png" qualifier="port-xxhdpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-xxhdpi-screen.png" qualifier="land-xxhdpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-xxxhdpi-screen.png" qualifier="port-xxxhdpi" />
-		<splash src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-xxxhdpi-screen.png" qualifier="land-xxxhdpi" />
-		</platform>
-		<platform name="winphone">
-		</platform>
-		 <icon src="icon.png" />
-		<allow-intent href="http://*/*" />
-		<allow-intent href="https://*/*" />
-		<allow-intent href="tel:*" />
-		<allow-intent href="sms:*" />
-		<allow-intent href="mailto:*" />
-		<allow-intent href="geo:*" />
-		<platform name="android" >
-		<allow-intent href="market:*" />
-		</platform>
-		<platform name="ios" >
-		<allow-intent href="itms:*" />
-		</platform>
-		<platform name="ios" >
-		<allow-intent href="itms-apps:*" />
-		</platform>
-		</widget>
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="sk.vigivietor.mhdbb" version="2.0.0" versionCode="" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>MHD Banská Bystrica		</name>
+    <description>An awesome Ionic/Cordova app.		</description>
+    <author email="kontakt@marek-vigas.sk" href="https://marek-vigas.sk">Marek Vigaš		</author>
+    <feature name="http://api.phonegap.com/1.0/battery" />
+    <feature name="http://api.phonegap.com/1.0/camera" />
+    <feature name="http://api.phonegap.com/1.0/contacts" />
+    <feature name="http://api.phonegap.com/1.0/file" />
+    <feature name="http://api.phonegap.com/1.0/geolocation" />
+    <feature name="http://api.phonegap.com/1.0/media" />
+    <feature name="http://api.phonegap.com/1.0/network" />
+    <feature name="http://api.phonegap.com/1.0/notification" />
+    <plugin name="cordova-plugin-device" spec="2.0.2" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-statusbar" spec="2.4.2" />
+    <plugin name="undefined" source="npm" version="1.3.3" />
+    <plugin name="undefined" source="npm" version="^2.0.0" />
+    <plugin name="undefined" source="npm" version="^2.0.5" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
+    <preference name="android-build-tool" value="gradle" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="true" />
+    <preference name="target-device" value="universal" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="false" />
+    <preference name="stay-in-webview" value="true" />
+    <preference name="ios-statusbarstyle" value="default" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="true" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="FadeSplashScreen " value="true" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="BackupWebStorage" value="local" />
+    <preference name="TopActivityIndicator" value="white" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="KeyboardShrinksView " value="true" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="windows-identity-name" value="" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="23" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="ErrorUrl" value="null" />
+    <preference name="BackgroundColor" value="0x000000" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="LoadingDialog" value="," />
+    <preference name="LoadUrlTimeoutValue" value="null" />
+    <platform name="ios">
+        <icon height="57" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon.png" width="57" />
+        <icon height="144" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-72@2x.png" width="144" />
+        <icon height="72" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-72.png" width="72" />
+        <icon height="114" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon@2x.png" width="114" />
+        <icon height="50" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-50.png" width="50" />
+        <icon height="100" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-50@2x.png" width="100" />
+        <icon height="60" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-60.png" width="60" />
+        <icon height="120" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-60@2x.png" width="120" />
+        <icon height="180" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-60@3x.png" width="180" />
+        <icon height="76" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-76.png" width="76" />
+        <icon height="152" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-76@2x.png" width="152" />
+        <icon height="29" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-small.png" width="29" />
+        <icon height="58" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-small@2x.png" width="58" />
+        <icon height="87" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-small@3x.png" width="87" />
+        <icon height="40" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-40.png" width="40" />
+        <icon height="80" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/icon/icon-40@2x.png" width="80" />
+        <splash height="2208" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-736h.png" width="1242" />
+        <splash height="1242" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-Landscape-736h.png" width="2208" />
+        <splash height="1334" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-667h.png" width="750" />
+        <splash height="1136" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-568h@2x~iphone.png" width="640" />
+        <splash height="960" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default@2x~iphone.png" width="640" />
+        <splash height="480" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default~iphone.png" width="320" />
+        <splash height="1024" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-Portrait~ipad.png" width="768" />
+        <splash height="768" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-Landscape~ipad.png" width="1024" />
+        <splash height="2048" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="1536" src="C:\CODE\mhd-bb-app\app\config.xmlresources/ios/splash/Default-Landscape@2x~ipad.png" width="2048" />
+    </platform>
+    <platform name="android">
+        <icon qualifier="ldpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-ldpi-icon.png" />
+        <icon qualifier="mdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-mdpi-icon.png" />
+        <icon qualifier="hdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-hdpi-icon.png" />
+        <icon qualifier="xhdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-xhdpi-icon.png" />
+        <icon qualifier="xxhdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-xxhdpi-icon.png" />
+        <icon qualifier="xxxhdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/icon/drawable-xxxhdpi-icon.png" />
+        <splash qualifier="port-ldpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-ldpi-screen.png" />
+        <splash qualifier="land-ldpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-ldpi-screen.png" />
+        <splash qualifier="port-mdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-mdpi-screen.png" />
+        <splash qualifier="land-mdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-mdpi-screen.png" />
+        <splash qualifier="port-hdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-hdpi-screen.png" />
+        <splash qualifier="land-hdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-hdpi-screen.png" />
+        <splash qualifier="port-xhdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-xhdpi-screen.png" />
+        <splash qualifier="land-xhdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-xhdpi-screen.png" />
+        <splash qualifier="port-xxhdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-xxhdpi-screen.png" />
+        <splash qualifier="land-xxhdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-xxhdpi-screen.png" />
+        <splash qualifier="port-xxxhdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-port-xxxhdpi-screen.png" />
+        <splash qualifier="land-xxxhdpi" src="C:\CODE\mhd-bb-app\app\config.xmlresources/android/splash/drawable-land-xxxhdpi-screen.png" />
+    </platform>
+    <platform name="winphone">
+    </platform>
+    <icon src="icon.png" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <content src="index.html" />
+    <engine name="browser" spec="5.0.4" />
+</widget>
